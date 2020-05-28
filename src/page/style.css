@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: URL("./assets/background-img.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.header{
+
+    width: 100%;
+    max-width: 2000px;
+    height: 45px;
+
+    padding-top: 10px;
+    text-align: center;
+
+    
+}
+
+.author, a{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'DM Mono', sans-serif;
+    font-weight: 400;
+}
+
+.valor{
+    display: block;
+    margin: auto;
+    margin-top: 85px;
+
+    width: 100%;
+    max-width: 2000px;
+
+    text-align: center;
+
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+input{
+    width: 650px;
+    height: 90px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DM Mono', sans-serif;
+    font-weight: 500;
+
+    margin-top: 20px;
+    border-radius: 15px;
+    border: solid 1px #fff;
+}
+input:focus {
+    outline: 0;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+button{
+    display: block;
+    width: 100%;
+    width: 650px;
+    height: 40px;
+
+    margin: 10px 0px 0px 355px;
+    border: solid 1px rgb(122, 7, 7);
+    border-radius: 5px;
+    
+    background-color: rgb(122, 7, 7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+button:hover{
+    background-color: rgb(88, 6, 6);
+    border: solid 1px rgb(88, 6, 6);
+
+    cursor: pointer;
+}
+
+
+.end{
+    background: rgba(0, 0, 0, 0.9);
+
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    text-align: center;
+    
+    padding-top: 15px;
+
+    width: 650px;
+    height: 250px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.info{
+    margin-bottom: 40px;
+}
+
