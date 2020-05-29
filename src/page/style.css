@@ -54,7 +54,7 @@ input{
     width: 650px;
     height: 90px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'DM Mono', sans-serif;
     font-weight: 500;
 
@@ -112,6 +112,12 @@ button:hover{
 }
 
 .info{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
 }
 
+.log, .bairro, .cidade, .uf{
+    font-family: 'DM Mono', sans-serif;
+    
+}
